@@ -77,7 +77,7 @@ to be named.
 If we are only calling our callback function in that one place, using an
 anonymous function makes sense. However, what if we wanted to use that same
 alert message on a bunch of elements? In that case, it would make more sense to
-create a separate, named function that could be called by all of our event
+create a separate, named function that could be ca`lled by all of our event
 listeners. With this approach, we would pass the _function name_ as the second
 argument to `addEventListener()` rather than the function itself:
 
@@ -109,7 +109,7 @@ call the function when the time comes.
 Refresh your browser and try out the latest version of the code in the console
 to verify that it works. Also try passing `clickAlert()` as the second argument
 rather than `clickAlert` and see what happens.
-
+np
 ## Passing the Tests
 
 Now let's set up `index.js` to do the same thing so we can get our test passing.
